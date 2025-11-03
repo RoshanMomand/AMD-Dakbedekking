@@ -69,7 +69,11 @@ export default function Contact() {
 
         <div className="max-w-3xl mx-auto">
           <div className="bg-gray-50 rounded-lg p-8 shadow-md">
-            <form onSubmit={handleSubmit} className="space-y-6">
+            <form
+              onSubmit={handleSubmit}
+              className="space-y-6"
+              action="mailto:r.momand@outlook.com"
+            >
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <div>
                   <label
@@ -251,7 +255,7 @@ export default function Contact() {
             <div>
               <h4 className="font-bold text-gray-900 mb-2">Email</h4>
               <a
-                href="mailto:info@amddakwerken.nl"
+                href="mailto:info@amddekbedekking.nl"
                 className="text-accent hover:text-accent-600 font-semibold"
               >
                 info@amddekbedekking.nl

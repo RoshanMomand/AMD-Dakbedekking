@@ -10,7 +10,7 @@ export default function Footer() {
           <div>
             <img
               src="/amd-white-logo.png"
-              alt="AMD Dakwerken"
+              alt="AMD Dakbedekking"
               className="h-36 w-fit mb-4 brightness-100 invert-0"
             />
             <p className="text-gray-300 leading-relaxed">
@@ -30,11 +30,11 @@ export default function Footer() {
                 06 13 47 48 42
               </a>
               <a
-                href="mailto:info@amddakwerken.nl"
+                href="mailto:info@amddakbedekking.nl"
                 className="flex items-center gap-3 text-gray-300 hover:text-accent transition-colors"
               >
                 <Mail className="w-5 h-5" />
-                info@amddakwerken.nl
+                info@amddakbedekking.nl
               </a>
               <div className="flex items-center gap-3 text-gray-300">
                 <MapPin className="w-5 h-5" />

@@ -42,7 +42,7 @@ export default function Navigation() {
             >
               <img
                 src="/amd-high-resolution-logo.png"
-                alt="AMD Dakwerken"
+                alt="AMD Dakbedekking"
                 className="h-30 w-36 "
               />
             </button>
